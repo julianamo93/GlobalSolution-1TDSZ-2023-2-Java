@@ -62,6 +62,7 @@ public class PlanoSaude extends Usuario {
         this.custo = custo;
     }
 
+    //método para adquirir Plano de Saúde
     public void adquirirPlano() {
         String escolha = JOptionPane.showInputDialog(
                 "Escolha um plano:\n" +
@@ -70,6 +71,7 @@ public class PlanoSaude extends Usuario {
                         "C - Plano Pro+"
         );
 
+        //If, else if e else para indicação do plano de saúde
         if (escolha != null) {
             escolha = escolha.toUpperCase();
 
@@ -99,6 +101,7 @@ public class PlanoSaude extends Usuario {
         }
     }
 
+    //método para exibir detalhes do plano escolhido com seus benefícios
     public void exibirDetalhes() {
         JOptionPane.showMessageDialog(null,
                 "Detalhes do Plano de Saúde:\n" +
