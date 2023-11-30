@@ -70,6 +70,7 @@ public class Atendimento extends Usuario {
         this.custo = custo;
     }
 
+    //método para agendar consultas médicas
     public void agendarConsulta() {
         setDescricao(JOptionPane.showInputDialog("Descreva a razão da consulta:"));
         setData(JOptionPane.showInputDialog("Digite a data da consulta (DD/MM/AAAA):"));
@@ -84,6 +85,7 @@ public class Atendimento extends Usuario {
                 + getData() + "\nHora: " + getHora() + "\nExames: " + getResultadoExame() + "\nCusto: " + getCusto());
     }
 
+    //método privado para avaliar valor das consultas pela idade
     private String avaliarCustoConsulta() {
         int idadePaciente = getIdade();
         if (idadePaciente <= 10) {
@@ -97,6 +99,7 @@ public class Atendimento extends Usuario {
         return getCusto();
     }
 
+    //método toString para exibir detalhes do agendamento na main
     public String toString() {
         return "Detalhes do agendamento:\n" +
                 "ID: " + getId() + "\n" +
