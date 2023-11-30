@@ -60,6 +60,7 @@ public class Prontuario extends Paciente {
         this.diagnostico = diagnostico;
     }
 
+    //método para exibir o prontuário do paciente na main
     public void exibeProntuario(Usuario usuario) {
         String mensagem = "ID: " + getId() +
                 "\nGênero: " + getGenero() +
