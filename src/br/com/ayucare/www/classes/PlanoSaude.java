@@ -123,6 +123,7 @@ public class PlanoSaude extends Usuario {
                 "Custo: " + this.custo + "\n";
     }
 
+    //método para configurar contrato de plano de saúde
     public void configurarContrato(String status, String termos) {
         contrato.setStatus(status);
         contrato.setTermos(termos);
