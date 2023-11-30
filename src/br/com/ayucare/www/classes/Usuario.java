@@ -93,15 +93,18 @@ public class Usuario {
         return senha;
     }
 
+    //método para definir senha e retornar true para indicar que foi configurada com sucesso
     public boolean setSenha(String senha) {
         this.senha = senha;
         return true; // Retorna true para indicar que a senha foi configurada com sucesso
     }
 
+    //toString para retornar dados do usuário
     public String toString() {
         return "ID: " + this.getId() + "Nome completo: " + this.nome + this.sobrenome + "Plano: " + getNomePlano();
     }
 
+    //String para retornar nome do plano de saúde indicado
     private String getNomePlano() {
         return getNomePlano();
     }
