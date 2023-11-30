@@ -28,7 +28,7 @@ public class ProfissionalSaude extends Usuario {
         this.especialidade = especialidade;
     }
 
-    //para o profissionar de saúde poder acessar dados do paciente
+    //para o profissional de saúde poder acessar dados do paciente
     public void acessarPaciente(Paciente paciente) {
         String informacoesPaciente = paciente.fornecerInformacoes();
         System.out.println("Informações do paciente:\n" + informacoesPaciente);
