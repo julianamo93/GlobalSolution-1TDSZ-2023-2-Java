@@ -1,6 +1,4 @@
-# GlobalSolution-1TDSZ-2023-2-Java
-
-# Sistema de Cadastro AyuCare
+# Sistema de Cadastro AyuCare - GlobalSolution_1TDSZ-2023/2
 
 Este é um sistema capaz de realizar cadastros, agendamentos, planos de saúde e prontuário médico eletrônico, sendo esta implantação inicial simples. O sistema permite o cadastro de pacientes, profissionais de saúde, prontuário médico, solicitação de plano de saúde, e agendamento de consultas.
 
