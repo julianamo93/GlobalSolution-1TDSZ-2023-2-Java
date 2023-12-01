@@ -85,7 +85,7 @@ public class PlanoSaude extends Usuario {
                 nomePlano = "Classic";
                 tipoPlano = "Individual ou família, essencial para pacientes com mais de 30 anos.";
                 cobertura = "Cobre 25 consultas ao mês, 15 exames, 05 internações e quarto individual.";
-                informacoes = "Possui car~encia de 06 meses após assinar o contrato.";
+                informacoes = "Possui carência de 04 meses após assinar o contrato.";
                 custo = "Parcelas de R$799,00 mensais.";
             } else if (escolha.equals("C")) {
                 nomePlano = "Pro+";
